@@ -5,7 +5,7 @@ Chrome extension to automatically launch Zoom link as the class starts from [Ver
 
 # Installation
 You can install it from this repo:
-* Download [this repo](https://github.com/religa/VeracrossZoomAuto/archive/master.zip)
+* Download this repo (click Code -> Download Zip on current page)
 * Uncompress the zip file
 * Go to [Chrome Extensions](chrome://extensions/) - [chrome://extensions/](chrome://extensions/)
 * Enable Developer mode in top right corner
