@@ -1,0 +1,31 @@
+{
+  "manifest_version": 2,
+  "name": "Veracross Zoom Auto",
+  "description": "Automatically launch Zoom class from Veracross website",
+  "version": "0.1",
+  "background": {
+    "scripts": ["background.js"],
+    "persistent": false
+  },
+  "content_scripts": [{
+    "run_at": "document_end",
+    "all_frames": true,
+    "js": ["content.js"],
+    "matches": [
+      "https://portals.veracross.com/*",
+      "https://seattlecountryday.zoom.us/*"
+    ]
+  }],
+  "browser_action": {
+    "default_icon": "icon.png",
+    "default_popup": "popup.html",
+    "default_title": "Veracross Zoom Auto"
+  },
+  "permissions": [
+    "storage",
+    "tabs",
+    "https://portals.veracross.com/*",
+    "https://seattlecountryday.zoom.us/*",
+    "activeTab"
+  ]
+}
