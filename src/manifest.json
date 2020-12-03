@@ -12,8 +12,8 @@
     "all_frames": true,
     "js": ["content.js"],
     "matches": [
-      "https://portals.veracross.com/*",
-      "https://seattlecountryday.zoom.us/*"
+      "https://*.veracross.com/*",
+      "https://*.zoom.us/*"
     ]
   }],
   "browser_action": {
@@ -24,8 +24,8 @@
   "permissions": [
     "storage",
     "tabs",
-    "https://portals.veracross.com/*",
-    "https://seattlecountryday.zoom.us/*",
+    "https://*.veracross.com/*",
+    "https://*.zoom.us/*",
     "activeTab"
   ]
 }
