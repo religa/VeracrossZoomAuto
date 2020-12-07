@@ -34,5 +34,5 @@ If the extension finds the schedule with classes starting in the near future, it
 
 ![Veracross Example](doc/img/Chrome-Store-Example3.png)
 
-If you want to have completely hands-off experience, you will need to approve the default settings for launching the zoom links in Chrome and audio settings in Zoom.
+If you want to have completely hands-off experience, you will need to approve the default settings for launching the zoom links in Chrome and audio settings in Zoom. Obviously, you will need to change the Veracross website to the appropriate day. 
 
